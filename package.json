@@ -1,0 +1,27 @@
+{
+  "name": "web3-lottery",
+  "version": "1.0.0",
+  "description": "web3-simple lottery",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsnyx/web3-lottery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsnyx/web3-lottery/issues"
+  },
+  "homepage": "https://github.com/itsnyx/web3-lottery#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.2.0",
+    "solc": "^0.4.17",
+    "web3": "^1.8.1"
+  }
+}
